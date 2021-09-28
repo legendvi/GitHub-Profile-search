@@ -27,16 +27,15 @@
   </head>
   <body>
     <div class="container">
-      <div id="serachName">
-        <form id="searchForm">
+      <div class="serachName">
+        <form class="searchForm">
           <div class="m-3 mb-3">
             <label for="name" class="form-label h2"
               >Enter Name and click Search to search GitHub profiles</label
             >
             <input
               type="text"
-              class="form-control mb-3 fs-1"
-              id="name"
+              class="form-control mb-3 fs-1 name"
               placeholder="Enter a GitHub Profile Name"
             />
             <button type="submit" id="search" class="btn-lg btn-primary btn">
@@ -45,12 +44,12 @@
           </div>
         </form>
       </div>
-      <div id="searchResult">
+      <div class="searchResult">
         <div class="container">
-          <div id="grid" class="row"></div>
+          <div class="row grid"></div>
         </div>
       </div>
-      <div id="display-error" class="text-danger h1 m5"></div>
+      <div class="text-danger h1 m5 display-error"></div>
     </div>
   </body>
 </html>

@@ -3,10 +3,10 @@
 //All Dom elemets required
 
 const domElement = {
-  inputFeild: document.querySelector("#name"),
-  displayError: document.querySelector("#display-error"),
-  form: document.querySelector("#searchForm"),
-  grid: document.querySelector("#grid"),
+  inputFeild: document.querySelector(".name"),
+  displayError: document.querySelector(".display-error"),
+  form: document.querySelector(".searchForm"),
+  grid: document.querySelector(".grid"),
 };
 
 //--------------------------------------------------
